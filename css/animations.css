@@ -1,0 +1,81 @@
+.pageSection {
+  animation: backgroundDrift 16s ease-in-out infinite alternate;
+}
+
+.characterOverlay {
+  animation: slowFloat 8s ease-in-out infinite;
+}
+
+.reveal {
+  opacity: 0;
+  transform: translateY(22px);
+  transition:
+    opacity 900ms ease,
+    transform 900ms ease;
+}
+
+.reveal.isVisible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.assetButton {
+  transition:
+    transform 180ms ease,
+    border-color 180ms ease,
+    box-shadow 180ms ease;
+}
+
+.navBrand {
+  animation: goldPulse 4s ease-in-out infinite;
+}
+
+@keyframes slowFloat {
+  0% {
+    translate: 0 0;
+  }
+
+  50% {
+    translate: 0 -18px;
+  }
+
+  100% {
+    translate: 0 0;
+  }
+}
+
+@keyframes backgroundDrift {
+  0% {
+    background-size: 100%;
+  }
+
+  100% {
+    background-size: 106%;
+  }
+}
+
+@keyframes goldPulse {
+  0% {
+    text-shadow: 0 0 12px rgba(244, 231, 193, 0.22);
+  }
+
+  50% {
+    text-shadow: 0 0 22px rgba(244, 231, 193, 0.48);
+  }
+
+  100% {
+    text-shadow: 0 0 12px rgba(244, 231, 193, 0.22);
+  }
+}
+
+@media (max-width: 820px) {
+  @keyframes backgroundDrift {
+    0% {
+      background-size: cover;
+    }
+
+    100% {
+      background-size: cover;
+    }
+  }
+}
