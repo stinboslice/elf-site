@@ -1,0 +1,95 @@
+[
+  {
+    "id": "hero",
+    "type": "hero",
+    "eyebrow": "ELF: Break the Machine",
+    "title": "You do not beat the system by playing harder.",
+    "body": "You beat it by knowing your enemy. A deterministic simulation of extraction, risk and decision making.",
+"contractAddress": "TBD",
+    "background": "assets/backgrounds/bg_cutscene_default.png",
+    "character": "assets/sprites/player_rogue_idle.png",
+    "side": "right",
+    "primaryButton": {
+      "label": "Enter The Machine",
+      "href": "https://elfbreak.xyz"
+    },
+    "secondaryButton": {
+      "label": "Read The Thesis",
+      "href": "#thesis"
+    }
+  },
+  {
+    "id": "machine",
+    "type": "story",
+    "eyebrow": "The Extraction Machine",
+    "title": "The system is not evil. It is optimized.",
+    "body": "It rewards engagement, punishes hesitation, amplifies emotion and converts belief into liquidity.",
+    "background": "assets/backgrounds/bg_depth_1.png",
+    "character": "assets/sprites/miniboss_pepe_idle.png",
+    "side": "left"
+},
+  {
+    "id": "thesis",
+    "type": "story",
+    "eyebrow": "Why This Exists",
+    "title": "Memecoins did not break the market. They revealed it.",
+    "body": "Narratives, liquidity funnels, emotional exits and engineered conviction were always there. ELF turns the pattern into something playable.",
+    "background": "assets/backgrounds/bg_depth_2.png",
+    "character": "assets/sprites/player_vanguard_idle.png",
+    "side": "right"
+  },
+  {
+    "id": "engine",
+    "type": "story",
+    "eyebrow": "Extraction Engine",
+    "title": "A simulation and logging primitive.",
+    "body": "Every run is a deterministic sequence of decisions, attacks, outcomes, deaths and extraction points that can become structured data.",
+    "background": "assets/backgrounds/bg_depth_3.png",
+    "character": "assets/sprites/miniboss_doge_idle.png",
+    "side": "left"
+  },
+  {
+    "id": "video",
+    "type": "video",
+    "eyebrow": "Watch The Machine",
+    "title": "Exit Liquidity Farmers",
+    "body": "Follow along as a group of simple elven farmers attempt to eradicate a system of despair that is siphoning their beloved community of a once abundant source of life.",
+    "background": "assets/backgrounds/bg_depth_4.png",
+    "character": "assets/sprites/player_berserker_idle.png",
+    "side": "right",
+    "video": "assets/video/promo.mov",
+    "poster": "assets/video/promo-poster.png"
+  },
+{
+  "id": "contact",
+  "type": "contact",
+  "eyebrow": "Join The Farmers",
+  "title": "The machine is easier to see together.",
+  "body": "Follow the build, join the portal and stay close to the $ELF ecosystem.",
+  "background": "assets/backgrounds/bg_depth_2.png",
+  "character": "assets/sprites/miniboss_purple_idle.png",
+  "side": "left",
+  "primaryButton": {
+    "label": "Telegram",
+    "href": "https://t.me/Exit_LiquidityFarmersPortal"
+  },
+  "secondaryButton": {
+    "label": "X",
+    "href": "https://x.com/elvenfarmer"
+  }
+},
+  {
+    "id": "final",
+    "type": "cta",
+    "eyebrow": "Enter The Machine",
+    "title": "The player is not the hero by default.",
+    "body": "The player is part of the machine until they learn.",
+    "background": "assets/backgrounds/bg_cutscene_default.png",
+    "character": "assets/sprites/final_boss_idle.png",
+    "side": "left",
+    "primaryButton": {
+      "label": "Play Now",
+      "href": "https://elfbreak.xyz"
+    }
+  }
+]
